@@ -70,22 +70,7 @@ Após a execução, o menu será exibido e o sistema estará pronto para uso
 │   ├── books.csv
 │   └── loans.csv
 └── README.md
-
-
-### 🗂️ Descrição das Pastas 
-
-main.py
-Arquivo principal responsável por iniciar o sistema e exibir os menus interativos.
-
-actions/
-Contém as funções responsáveis pelas ações do sistema, como cadastro, listagem, empréstimos e devoluções.
-
-models/
-Define as estruturas dos dados utilizados pelo sistema (livros, usuários e empréstimos).
-
-data/
-Armazena os arquivos CSV utilizados como base de dados do sistema.
-
 .
+
 
 
