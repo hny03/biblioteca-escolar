@@ -56,17 +56,15 @@ Após a execução, o menu será exibido e o sistema estará pronto para uso
 ```text
 .
 ├── main.py
+├── models.py
 ├── actions/
 │   ├── user_actions.py
 │   ├── book_actions.py
 │   └── loan_actions.py
-├── models/
-│   ├── user.py
-│   ├── book.py
-│   └── loan.py
 ├── data/
 │   ├── users.csv
 │   ├── books.csv
 │   └── loans.csv
 └── README.md
 .
+
