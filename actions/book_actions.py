@@ -1,8 +1,10 @@
 from models import Book 
 import csv
 import os
+from pathlib import Path
 
-FILE_PATH_BOOKS = "Sistema_biblioteca\\data\\books.csv"
+BASE_DIR = Path(__file__).resolve().parents[1]
+FILE_PATH_BOOKS = BASE_DIR / "data" / "books.csv"
 
 # self, code, title, author, year, quantity):
 def load_books():

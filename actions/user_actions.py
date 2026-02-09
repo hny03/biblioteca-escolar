@@ -1,11 +1,10 @@
-        #   "1": lambda: create_user,
-        #     "2": lambda: list_users,
-
 from models import User
 import csv
 import os
+from pathlib import Path
 
-FILE_PATH_USERS = "Sistema_biblioteca\\data\\users.csv"
+BASE_DIR = Path(__file__).resolve().parents[1]
+FILE_PATH_USERS = BASE_DIR / "data" / "users.csv"
 
 def load_users():
     users = []

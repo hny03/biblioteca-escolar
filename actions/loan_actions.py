@@ -4,7 +4,10 @@ from actions.book_actions import get_book_by_code, update_book_quantity
 import csv
 import os
 
-FILE_PATH_LOANS = "Sistema_biblioteca\\data\\loans.csv"
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+FILE_PATH_LOANS = BASE_DIR / "data" / "loans.csv"
 
 
 def load_loans():
